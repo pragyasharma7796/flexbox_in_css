@@ -1,0 +1,263 @@
+.home{
+    width: 1460px;
+    height: 1100px;
+    background: rgba(255, 255, 255, 1);
+}
+.content-1{
+    width: 764px;
+    display: flex;
+    height: 81.88px;
+    margin-top: 60px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 321.81px;
+    height: 81.88px;
+    top:50.69px;
+    left:398.46px;
+    position:absolute;
+    float: right;
+}
+.frame-5{
+    display: flex;
+    margin-left: 59px; 
+    flex-grow: 1;
+    gap: 25px;
+    height: 16px;
+}
+.menu-frame-5{
+    width: 72px;
+    height: 18px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: Inter sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(51, 51, 51, 1);
+    justify-items: right;
+
+}
+
+.frame-6{
+    display: flex;
+    gap: 28.148px;
+    margin-top: 20px;
+}
+.menu-frame-6{
+    text-decoration: none;
+    color: rgba(51, 51, 51, 1);
+    display: block;
+    border: 1.01px solid rgba(51, 51, 51, 0.2);
+    padding: 10.14px 15.21px 10.14px 15.21px;
+    border-radius: 5.07px;
+    gap: 10.14px;
+
+}
+.image{
+    width: 696px;
+    height: 1036px;
+    left: 764px;
+    position: absolute;
+    
+    
+}
+.logo{
+    width: 168.31px;
+    height: 81.11px;
+    top: 50.69px;
+    left: 101.39px;
+    padding: 0px, 0px, 0px, 0px;
+    position: absolute;
+    gap:20px;
+    display: flex;
+}
+.header-title{
+    width: 438px;
+    height: 118.08px;
+    top: 223.06px;
+    left: 101.39px;
+    position: absolute;
+
+}
+.indian-railway{
+    font-family: Inter;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+
+}
+.safty_security_punchuality{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+
+}
+.sub-button{
+    width:603.22px;
+    height:44.61px;
+    top: 422.79px;
+    left: 101.39px;
+    gap: 20.28px;
+    display: flex;
+    position: absolute;
+
+}
+.button{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: 0px;
+    
+    text-align: left;
+
+}
+.sub-button-box{
+    padding: 10.14px, 15.21px, 10.14px, 15.21px;
+    border-radius: 5.07px;
+    gap: 10.14px;
+    color:rgba(51, 51, 51, 0.5) ;
+    border: 1px solid  rgba(51, 51, 51, 0.5);
+}
+.icon{
+    height: 16.22px;
+    width: 20.28px;
+
+}
+i{
+    font-size: 1px;
+    padding: 2px;
+    margin-right: 5px;
+    
+}
+.sub-button-content{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+.search-train{
+    width: 618.47px;
+    height: 116.6px;
+    left: 101.39px;
+    position: absolute;
+    border: 1px solid rgba(51, 51, 51, 0.5);
+    border-radius: 10.14px;
+    display: flex;
+}
+.search-train-location{
+    top: 518.1px;
+   
+    flex-grow: 1;
+
+}
+.search-train-date{
+    top: 654.97px;
+    
+
+}
+.search-train-button{
+    width: 618.47px;
+    height: 81.11px;
+    top: 828.56px;
+    left: 101.39px;
+    border-radius: 10.14px;
+    position: absolute;
+    background: rgba(1, 187, 10, 1);
+
+
+
+}
+.search-train-button-text{
+    font-family: Inter sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.both-direction-arrow{
+    width: 24.38px;
+    height: 22.31px;
+    opacity: 0.5px;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 50%;
+    position: relative;
+    padding: 10px;
+    left: 125px;
+    top: 40px;
+}
+.destination-location{
+    display: flex;
+    flex-direction: column;
+}
+.destination-location-from{
+    position: relative;
+    left: 50px;
+}
+.image-from{
+    position: relative;
+    left: 50px;
+    top: 39px;
+}
+.bangalore{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.from-content{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 5px;
+}
+.to-image{
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+.to-content{
+    position: relative;
+    left: 200px;
+}
+.image-date{
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+.image-class{
+    position: relative;
+    top: 5px;
+    left: 80px;
+}
+.class-type{
+    position: relative;
+    left: 80px;
+}
+.image-seat-type{
+    position: relative;
+    left: 150px;
+    top: 5px;
+}
+.seat-type{
+    position: relative;
+    left: 150px;
+}

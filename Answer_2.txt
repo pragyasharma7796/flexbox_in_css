@@ -1,0 +1,59 @@
+The role of  the following key prperties in the Flexbox layout model:
+1-> justify-content :-  
+It aligns items horizontally and accepts the following values:
+
+flex-start: Items align to the left side of the container.
+flex-end: Items align to the right side of the container.
+center: Items align at the center of the container.
+space-between: Items display with equal spacing between them.
+space-around: Items display with equal spacing around them.
+
+Syntax:
+justify-content:flex-start/flex-end/center/space-between/space-around;
+
+2-> align-items :-
+This CSS property aligns items vertically and accepts the following values:
+
+flex-start: Items align to the top of the container.
+flex-end: Items align to the bottom of the container.
+center: Items align at the vertical center of the container.
+baseline: Items display at the baseline of the container.
+stretch: Items are stretched to fit the container.
+
+Syntax:
+align-items:
+align-items:flex-start/flex-end/center/baseline/stretch;
+
+3-> gap :-
+The gap property defines the size of the gap between the rows and between the columns i
+ flexbox,grid or multi-column layout.
+  It is a shorthand for the following properties:
+
+row-gap
+column-gap
+ 
+ css Syntax:
+ gap: row-gap column-gap|initial|inherit;
+
+4->flex-direction :-
+This CSS property defines the direction items are placed in the container, and accepts the following values:
+
+row: Items are placed the same as the text direction.
+row-reverse: Items are placed opposite to the text direction.
+column: Items are placed top to bottom.
+column-reverse: Items are placed bottom to top.
+
+Syntax:
+flex-direction:row/row-reverse/column/column-reverse;
+
+5-> flex-wrap :- 
+Spread them out using the flex-wrap property, which accepts the following values:
+
+nowrap: Every item is fit to a single line.
+wrap: Items wrap around to additional lines.
+wrap-reverse: Items wrap around to additional lines in reverse.
+
+
+Syntax:
+flex-wrap:nowrap/wrap/wrap-reverse;
+

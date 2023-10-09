@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(7,0,39);
+}
+.card{
+    width:860px;
+    margin-top:25px;
+    padding:32px 48px  32px 48px;
+    gap:32px;
+    border:1px solid black;
+    display: flex;
+    background-color: rgba(244, 242, 253, 1);
+
+}
+.card-odd-color{
+    background-color: rgba(255, 255, 255, 1);
+    color:   rgba(32, 40, 66, 1);
+}
+.card-even-color{
+    background-color:   rgba(32, 40, 66, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.card-content{
+    /* width: 262px; */
+    /* height: 363px; */
+    border-radius: 8px;
+     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    ;
+    padding: 32px;
+    gap: 32px;
+}
+.layout{
+    width:198px;
+    display: iflex;
+    flex-direction: column;
+    gap:32px;
+}
+.card-details{
+    width:198px;
+    gap:16px;
+    display: flex;
+    flex-direction: column;
+}
+.card-header{
+    width:198px;
+    height:108px;
+    gap:16px;
+    display: flex;
+    flex-direction: column;
+}
+.header-name{
+    width:157px;
+    height:56px;
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
+    
+}
+.frame1{
+    width:157px;
+    height:40px;
+    padding:4px 8px 4px 8px;
+   gap:10px;
+
+}
+.heading{
+    
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: 'Nunito', sans-serif;
+    display: inline-block;
+    
+}
+.frame2{
+    padding: 0px 8px 0px 8px;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+
+}
+.heading-discription{
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.prize{
+    
+padding: 0px 8px 0px 8px;
+gap: 10px;
+font-family: Sans Serif Collection;
+font-size: 36px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.plan-detail{
+    margin-top: 32px;
+    padding-inline-start: 0px;
+    
+
+}
+.check-icon{
+    margin-right: 10px;
+}
+li{
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-inline-start: 0px;
+    margin:10px ;
+    list-style-type: none;
+  
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-button{
+    
+    padding: 8px 24px 8px 24px;
+    border-radius: 50px;
+    cursor: pointer;
+}
